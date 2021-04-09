@@ -1,0 +1,931 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* All Common CSS End */
+
+/* ===========Menu Part Start=========== */
+.navbar {
+    background: #101d3a !important;
+}
+
+.container .navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    position: relative;
+}
+
+.container .navbar-brand::after {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #4c76ff;
+    border-radius: 50%;
+    bottom: 13px;
+}
+
+#tag_line {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    margin-left: 40px;
+    padding-left: 40px;
+    font-style: italic;
+    position: relative;
+}
+
+#tag_line::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 14px;
+    background: #ffffff;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+.navbar-toggler {
+    margin-left: 23px;
+	border: 1px solid #fffafa;
+}
+.navbar-toggler span i{
+    color: #ffffff;
+}
+.nav-item a::after {
+    position: absolute;
+    width: 69%;
+    height: 1px;
+    background: #4c76ff;
+    content: '';
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.nav-item:hover a::after{
+    opacity: 1;
+}
+/* javascript addClass *****************/
+.add {
+    background: rgba(0, 0, 0, 0.864);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: all linear .3s;
+    animation: alamin 2s;
+}
+
+@keyframes alamin {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+/* javascript addClass End****************/
+/* ===========Menu Part End=========== */
+
+/* ============Bennar Part Start ============ */
+#bennar {
+    background: url(../images/bennar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bennar_overly {
+    padding-top: 28px;
+    background: rgba(4, 4, 4, .6);
+}
+
+.bennar_text h1 {
+    color: #ffffff;
+    font-size: 62px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 80px;
+    position: relative;
+}
+
+.bennar_text h1::after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #4c76ff;
+    border-radius: 50%;
+    bottom: 15px;
+
+}
+
+.bennar_text h2 {
+    color: #4c76ff;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: ;
+}
+
+.bennar_text h2 span {
+    color: #ffffff;
+
+}
+
+.bennar_text p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.bennar_icon {
+    padding-top: 22px;
+}
+
+.bennar_icon i {
+    color: #62697f;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+
+.bennar_icon i:hover {
+    color: #ffffff;
+}
+
+.bennar_image {
+    width: 200px;
+}
+
+/* ============Bennar Part End ============ */
+
+/* ============Feature Part Start ============ */
+
+#features {
+    padding-top: 200px;
+}
+
+.features_content {
+    background: #efefef;
+    padding-top: 70px;
+    padding-bottom: 115px;
+}
+
+.features_header h3 {
+    color: #4c76ff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features_header_icon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.features_header i {
+    color: #bfbfbf;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+
+.features_header_icon::before {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.features_header_icon::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fea_padding {
+    padding-top: 80px;
+}
+
+.features_item {
+    display: flex;
+}
+
+.fea_item_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #4c76ff;
+    text-align: center;
+}
+
+.fea_item_icon i {
+    color: #4c76ff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.fea_item_text {
+    width: 251px;
+    margin-left: 12px;
+}
+
+.fea_item_text h4 {
+    color: #062033;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.fea_item_text p {
+    color: #282528;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+/* ============Feature Part End ============ */
+
+
+/* ============Iphone Part Start ============ */
+#iphone {
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.iphone_heading {
+    margin-bottom: 70px;
+}
+
+.iphone_heading p {
+    color: #282528;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 36px;
+}
+
+.iphone_item {
+    display: flex;
+    margin-top: 66px;
+    transition: all linear .3s;
+}
+
+.iphone_item:hover {
+    background: #fefce9;
+}
+
+.iphone_icon i {
+    color: #aeadae;
+    font-size: 32px;
+    padding-left: 18px;
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+.iphone_item_text {
+    /* padding-top: 5px; */
+}
+
+.iphone_item_text h3 {
+    color: #062033;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.iphone_item_text p {
+    color: #282528;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+    padding-right: 36px;
+}
+
+/* ============Iphone Part End ============ */
+
+/* ============Works Part Start ============ */
+#works {
+    padding-bottom: 100px;
+}
+
+.works_header h3 {
+    color: #4c76ff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.works_icon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.works_icon i {
+    color: #bfbfbf;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+
+.works_icon::before {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.works_icon::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.works_header p {
+    color: #282528;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+    padding: 40px 70px 40px;
+}
+/* for Lightbox Class */
+.lb-data .lb-caption {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1em;
+	color: #7C4DFF;
+	text-shadow: 4px 3px 3px #111111;
+	display: block !important;
+	text-align: center;
+
+}
+.lightbox .lb-image {
+	border: 4px solid #32d02d;
+}
+.sub_menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 25px;
+    border-radius: 5px;
+    background: #aeadae;
+    color: #062033;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.sub_menu ul li:hover {
+    background: #4c76ff;
+    color: #ffffff;
+}
+.works_img_group{
+    padding-top: 70px;
+}
+.img_item{
+    /* margin: 0; */
+    padding: 0;
+    position: relative;
+}
+.img_item img{
+    height: 100%;
+}
+/* For overly style */
+.works_img_overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4c76ffdc;
+    text-align: center;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.work_img_ovely_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25%;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.work_img_ovely_icon a{
+    color: #ffffff;
+    font-size: 15px;
+    display:inline-block;
+}
+.works_img_overly p{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.img_item:hover .works_img_overly{
+    opacity: 1;
+}
+/* ============Works Part End ============ */
+
+
+/* ============Our Team Part Start ============ */
+#team{
+    padding-bottom: 100px;
+}
+.team_header{
+    
+}
+.team_header h3{
+    color: #4c76ff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team_header p{
+    color: #282528;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+    padding: 40px 70px 40px;
+}
+.team_icon{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.team_icon i{
+    color: #bfbfbf;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+.team_icon::before {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.team_icon::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* For images */
+.team_item_img{
+    position: relative;
+    cursor: pointer;
+}
+.team_item_overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #4c76ffe8;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.team_item_img:hover .team_item_overly{
+opacity: 1;
+}
+
+.team_item_img .team_item_overly h5 {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    text-align: center;
+    padding: 0 26px;
+    padding-top: 15px;
+}
+.team_item_img .team_item_overly p {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+    padding: 0 30px;
+    line-height: 19px;
+}
+.team_item_overly_icon{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 58px;
+}
+.team_item_overly_icon i{
+    width: 36px;
+    height: 36px;
+    background: #3b57b1;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.team_item h6{
+color: #062033;
+font-size: 13px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+text-align: center;
+padding-top: 20px;
+cursor: pointer;
+transition: all linear .3s;
+}
+.team_item h6:hover{
+    color: #1db99a;
+}
+.team_item p{
+    color: #062033;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/* ============Our Team Part End ============ */
+
+
+
+/* ===========Some Fun Facts Part Start=========== */
+#fun_facts{
+    background: url(../images/Fun-facts.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.fun_overly{
+    background: rgba(6, 32, 51, .8);
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+.fun_facts_header{
+    padding-bottom: 14px;
+}
+.fun_facts_header h3{
+    color: #4c76ff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.fun_facts{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.fun_facts i{
+    color: #bfbfbf;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+.fun_facts::before {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fun_facts::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fun_facts_item{
+
+}
+.fun_facts_icon{
+    width: 98px;
+    height: 98px;
+    border: 2px solid #67737f;
+    border-radius: 50%;
+    text-align: center;
+}
+.fun_facts_icon i{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 98px;
+}
+.fun_facts_item h2{
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 600px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 33px;
+}
+.fun_facts_item p{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+/* ===========Some Fun Facts Part End=========== */
+
+/* ===========Let’s Discuss Part Start ======== */
+#discuss{
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+.discuss_header h3 {
+    color: #4c76ff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.discuss_header_icon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.discuss_header_icon i {
+    color: #bfbfbf;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+
+.discuss_header_icon::before {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.discuss_header_icon::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #bfbfbf;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.discuss_header p{
+    color: #062033;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 62px;
+}
+            /* For From Part */
+.discuss_form_text h4{
+    color: #062033;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 18px;
+}
+.discuss_form_text p{
+    color: #6a737b;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 146px;
+}
+.discuss_form h4{
+    color: #062033;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.discuss_form input[type="text"] {
+    color: #bcc0c4;
+	width: 43%;
+    margin-right: 25px;
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+.discuss_form textarea{
+    color: #bcc0c4;
+    width: 90%;
+    padding-top: 25px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+.discuss_form p{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    padding-right: 72px;
+    padding-top: 10px;
+}
+.discuss_form p a{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+.discuss_form p a i{
+    color: #4c76ff;
+    font-size: 13px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.discuss_icon a i{
+    display: block;
+    margin: 20px 0;
+    font-size: 23px;
+    text-align: center;
+    color: #cdd2d6;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+}
+.discuss_icon a i:hover{
+    color: #4c76ff;
+}
+/* ===========Let’s Discuss Part End ======== */
+
+/* ============Map Part Start ============ */
+#map{
+position: relative;
+}
+#map i {
+	position: absolute;
+	left: 44%;
+	top: 22%;
+    color: #4c76ff;
+	font-size: 34px;
+	z-index: 9;
+}
+/* ============Map Part End ============ */
+
+/* ============Footer Part Start ============ */
+#footer{
+    background: #000000;
+    padding: 50px 0;
+}
+.footer_item img{
+    padding-bottom: 30px;
+}
+.footer_item p{
+
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+}
+.footer_item h3{
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 30px;
+}
+.in_btn{
+    position: relative;
+}
+.in_btn a {
+	position: absolute;
+	right: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffffff;
+	border: 1px solid #fff;
+	border-left: none;
+    padding: 0 8px;
+    width: 15%;
+}
+.in_btn a i {
+	margin-left: 7px;
+}
+.footer_item input[type="text"] {
+	background: transparent;
+	color: #0adf2d;
+	width: 85%;
+	border: 1px solid #ffffff;
+	border-right: none;
+	padding-left: 10px;
+	padding-right: 25px;
+}
+.footer_item ul li{
+    display: inline-block;
+    width: 104px;
+    margin-right: 10px;
+}
+.footer_item ul li a{
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .2s;
+}
+.footer_item ul li a:hover{
+    color: #0947f3;
+}
+/* ============Footer Part End ============ */
+
+

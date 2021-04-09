@@ -1,0 +1,452 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+
+
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar-nav.ml-auto {
+        float: right;
+        text-align: right;
+    }
+        /* bennar Part */
+        .bennar_text h1 {
+            font-size: 62px;
+            text-align: center;
+            padding-top: 30px;
+        }
+    
+        .bennar_text h2 {
+            width: 606px;
+            margin: 0 auto;
+            font-size: 48px;
+        }
+    
+        .bennar_text p {
+            font-size: 17px;
+            text-align: center;
+        }
+    
+        .bennar_icon {
+            padding-top: 7px;
+            margin: 0 auto;
+            width: 133px;
+        }
+    
+        .bennar_image {
+            width: 200px;
+            margin: 0 auto;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: none;
+    }
+
+    .navbar-nav.ml-auto {
+        float: right;
+        text-align: right;
+    }
+
+    .nav-item a::after {
+        width: 47px;
+        top: 25px;
+        left: 26px;
+    }
+        /* bennar Part */
+        .bennar_text h1 {
+            font-size: 60px;
+            text-align: center;
+            padding-top: 30px;
+        }
+    
+        .bennar_text h2 {
+            width: 320px;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+    
+        .bennar_text p {
+            font-size: 17px;
+            text-align: center;
+        }
+    
+        .bennar_icon {
+            padding-top: 7px;
+            margin: 0 auto;
+            width: 133px;
+        }
+    
+        .bennar_image {
+            width: 200px;
+            margin: 0 auto;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        /* Feature Part Start */
+        #features {
+            padding-top: 50px;
+        }
+        .features_content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        .fea_padding {
+            padding-top: 30px;
+        }
+        .features_item {
+            width: 60%;
+            margin: 0 auto;
+        }
+        /* Feature Part End */
+
+        /* Iphone Part Start */
+        #iphone {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .iphone_item {
+            margin-top: 30px;
+        }
+        .iphone_image {
+            margin: auto !important;
+            margin-top: 20px !important;
+        }
+        /* Iphone Part End */
+
+        /* Work Part Start */
+        #works {
+            padding-bottom: 50px;
+        }
+        .works_header p {
+            padding: 22px 70px 20px;
+        }
+        .sub_menu ul li {
+
+            padding: 5px 15px;
+            margin-right: 0px;
+        }
+        .works_img_group {
+            padding-top: 30px;
+        }
+        /* Work Part End */
+
+        /* Team Part Start */
+        #team {
+            padding-bottom: 50px;
+        }
+        .team_header p {
+            padding: 15px 70px 40px;
+        }
+        /* Team Part End */
+
+        /* Fun_fact Part Start */
+        .fun_overly {
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
+        /* Fun_fact Part End */
+
+        /* Discuss Part Start */
+        #discuss {
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
+        .discuss_icon {
+            display: flex;
+            justify-content: center;
+        }
+        .discuss_icon a i{
+            margin-left: 10px;
+        }
+        /* Discuss Part End */
+        
+        
+        
+
+}
+
+@media (max-width: 575.98px) {
+    .navbar-nav.ml-auto {
+        float: right;
+        text-align: right;
+    }
+
+    .nav-item a::after {
+        width: 47px;
+        top: 25px;
+        left: 20px;
+
+    }
+
+    /* bennar Part */
+    .bennar_text h1 {
+        font-size: 60px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bennar_text h2 {
+        width: 320px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    .bennar_text p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .bennar_icon {
+        padding-top: 7px;
+        margin: 0 auto;
+        width: 133px;
+    }
+
+    .bennar_image {
+        width: 200px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    /* Feature Part */
+    #features {
+        padding-top: 0px;
+    }
+    .features_content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .fea_padding {
+        padding-top: 20px;
+    }
+    .features_item {
+        width: 53%;
+        margin: 0 auto;
+    }
+    /* Iphone Part */
+    #iphone {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .iphone_heading {
+        margin-bottom: 0;
+    }
+    .iphone_heading p {
+        line-height: 22px;
+    }
+    .iphone_item {
+        margin-top: 16px;
+    }
+    .iphone_image {
+        margin-top: 20px !important;
+    }
+    /* Works Part */
+    .sub_menu ul {
+        text-align: center;
+    }
+    .sub_menu ul li {
+        padding: 7px 15px;
+        margin-right: 0;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .works_img_group {
+        padding-top: 10px;
+    }
+    /* Team Part */
+    #team {
+        padding-bottom: 15px;
+    }
+    .fun_overly {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    /* Discuss Part */
+    #discuss {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .discuss_header p {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .discuss_icon {
+        margin: 0 auto;
+        width: 270px;
+    }
+    .discuss_icon i {
+        display: inline-block;
+        margin: 20px 13px;
+    }
+}
+/* Very Very Small */
+@media (max-width: 319.98px) {
+    .navbar-nav.ml-auto {
+        float: left;
+        text-align: left;
+    }
+
+    #tag_line {
+        font-size: 11px;
+        padding-left: 18px;
+
+    }
+
+    /* bennar Part */
+    .bennar_text h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bennar_text h2 {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .bennar_text p {
+
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .bennar_icon {
+        padding-top: 7px;
+        margin: 0 auto;
+        width: 133px;
+    }
+
+    .bennar_image {
+        width: 200px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    /* feature Part */
+    #features {
+        padding-top: 0px;
+    }
+
+    .features_content {
+        background: #b1c0c517;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fea_padding {
+        padding-top: 10px;
+    }
+
+    /* Iphone Part */
+    #iphone {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .iphone_heading p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 1px 32px;
+    }
+
+    .iphone_heading {
+        margin-bottom: 0;
+    }
+
+    .iphone_item {
+        margin-top: 9px;
+    }
+
+    .m-auto {
+        padding-top: 15px;
+    }
+
+    .works_header p {
+        padding: 22px 45px 7px;
+    }
+
+    .sub_menu ul {
+        margin: 0 auto;
+    }
+
+    .sub_menu ul li {
+        display: block;
+        padding: 6px 6px;
+        margin-bottom: 2px;
+    }
+
+    /* Features Part */
+    .features_header_icon {
+        margin-top: 0;
+    }
+
+    /* Works Part */
+    .works_icon {
+        padding-top: 0;
+    }
+
+    #team {
+        padding-bottom: 10px;
+    }
+
+    /* Fun Part*/
+    .fun_overly {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fun_facts {
+        padding-top: 0;
+    }
+
+    .fun_facts_icon i {
+        line-height: 64px;
+    }
+
+    /* Counter Part */
+    .fun_facts_item h1 {
+        padding-top: 10px;
+    }
+
+    .fun_facts_item p {
+        padding-bottom: 15px;
+    }
+
+    /* Discuss Part */
+    #discuss {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .discuss_header_icon {
+        padding-top: 0;
+    }
+
+    .discuss_header p {
+
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .discuss_icon {
+        margin: 0 auto;
+        width: 270px;
+    }
+    .discuss_icon i {
+        display: inline-block;
+        margin: 20px 13px;
+    }
+
+}
